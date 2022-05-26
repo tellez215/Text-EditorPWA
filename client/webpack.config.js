@@ -4,8 +4,6 @@ const path = require('path');
 const { InjectManifest } = require('workbox-webpack-plugin');
 
 // TODO: Add and configure workbox plugins for a service worker and manifest file.
-
-
 // TODO: Add CSS loaders and babel to webpack.
 
 module.exports = () => {
@@ -37,7 +35,7 @@ module.exports = () => {
         inject: true,
         name: 'Jate',
         short_name: 'jate',
-        description: 'Just another Text Editor!',
+        description: 'Just Another Text Editor!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
         start_url: '/',
